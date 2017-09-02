@@ -10,6 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Http\Request;
 
 Route::get('/','top@index');
-Route::get('/send', 'top@send');
+Route::get('/send', function($data){
+    return 0;
+}
+
+//'top@send'
+);

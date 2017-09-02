@@ -6,5 +6,6 @@
 
 <body>
     <h1>This is send page!</h1>
+    {{$memo}}
 </body>
 </html>
